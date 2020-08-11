@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="121575" started-at="2020-06-19T10:39:56Z" finished-at="2020-06-19T10:41:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="121575" started-at="2020-06-19T10:39:56Z" finished-at="2020-06-19T10:41:58Z">
+      <class name="Tutorial.SeleniumAutomation.WindowHandlingTest">
+        <test-method status="PASS" signature="handleWindow()[pri:0, instance:Tutorial.SeleniumAutomation.WindowHandlingTest@a8564a]" name="handleWindow" duration-ms="0" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleWindow -->
+        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.WindowHandlingTest@a8564a]" name="chechStatus" is-config="true" duration-ms="0" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handleWindow status=SUCCESS method=WindowHandlingTest.handleWindow()[pri:0, instance:Tutorial.SeleniumAutomation.WindowHandlingTest@a8564a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechStatus -->
+      </class> <!-- Tutorial.SeleniumAutomation.WindowHandlingTest -->
+      <class name="Tutorial.SeleniumAutomation.ClickEventsTest">
+        <test-method status="PASS" signature="intializeBrowser()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="intializeBrowser" is-config="true" duration-ms="20094" started-at="2020-06-19T10:39:56Z" finished-at="2020-06-19T10:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBrowser -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tutorial.SeleniumAutomation.WindowHandlingTest@a8564a]" name="initialize" is-config="true" duration-ms="9434" started-at="2020-06-19T10:40:16Z" finished-at="2020-06-19T10:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="clickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="clickOnButton" duration-ms="30630" started-at="2020-06-19T10:40:25Z" finished-at="2020-06-19T10:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnButton -->
+        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="chechStatus" is-config="true" duration-ms="3" started-at="2020-06-19T10:40:56Z" finished-at="2020-06-19T10:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnButton status=SUCCESS method=ClickEventsTest.clickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechStatus -->
+        <test-method status="PASS" signature="doubleClickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="doubleClickOnButton" duration-ms="30366" started-at="2020-06-19T10:40:56Z" finished-at="2020-06-19T10:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleClickOnButton -->
+        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="chechStatus" is-config="true" duration-ms="1" started-at="2020-06-19T10:41:26Z" finished-at="2020-06-19T10:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doubleClickOnButton status=SUCCESS method=ClickEventsTest.doubleClickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechStatus -->
+        <test-method status="PASS" signature="rightClickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="rightClickOnButton" duration-ms="30334" started-at="2020-06-19T10:41:26Z" finished-at="2020-06-19T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClickOnButton -->
+        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="chechStatus" is-config="true" duration-ms="0" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rightClickOnButton status=SUCCESS method=ClickEventsTest.rightClickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechStatus -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@17d444]" name="close" is-config="true" duration-ms="679" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tutorial.SeleniumAutomation.WindowHandlingTest@a8564a]" name="close" is-config="true" duration-ms="0" started-at="2020-06-19T10:41:58Z" finished-at="2020-06-19T10:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tutorial.SeleniumAutomation.ClickEventsTest -->
+      <class name="Tutorial.SeleniumAutomation.TestClass">
+        <test-method status="PASS" signature="printHello()[pri:0, instance:Tutorial.SeleniumAutomation.TestClass@b472aa]" name="printHello" duration-ms="0" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHello -->
+        <test-method status="PASS" signature="printHi()[pri:0, instance:Tutorial.SeleniumAutomation.TestClass@b472aa]" name="printHi" duration-ms="0" started-at="2020-06-19T10:41:57Z" finished-at="2020-06-19T10:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHi -->
+      </class> <!-- Tutorial.SeleniumAutomation.TestClass -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
