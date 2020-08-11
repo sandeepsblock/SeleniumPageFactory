@@ -1,0 +1,8 @@
+03:58:14.818 [main] INFO  Tutorial.SeleniumAutomation.Base - Chrome opened with URL
+03:58:14.840 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - single click on button
+03:58:15.030 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - Checking for the text
+03:58:15.097 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - right click on button
+03:58:15.324 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - Checking for the text
+03:58:15.379 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - double click on button
+03:58:15.609 [main] INFO  Tutorial.SeleniumAutomation.Page.ClickEventsPage - Checking for the text
+03:58:16.599 [main] INFO  Tutorial.SeleniumAutomation.Base - Closing browser
