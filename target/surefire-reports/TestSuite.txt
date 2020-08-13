@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 24.346 s <<< FAILURE! - in TestSuite
-Tutorial.SeleniumAutomation.ClickEventsTest.intializeBrowser  Time elapsed: 24.164 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=84.0.4147.125)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SANDEEP', ip: '192.168.42.203', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SANDEE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 48d8aa69633cd7e6a69f964384581d60
-	at Tutorial.SeleniumAutomation.ClickEventsTest.intializeBrowser(ClickEventsTest.java:20)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 126.898 s - in TestSuite

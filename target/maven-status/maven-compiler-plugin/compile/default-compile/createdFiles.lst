@@ -1,4 +1,4 @@
 Tutorial\SeleniumAutomation\Base.class
-Tutorial\SeleniumAutomation\Utils.class
 Tutorial\SeleniumAutomation\Page\ClickEventsPage.class
 Tutorial\SeleniumAutomation\Page\WindowHandlingPage.class
+Tutorial\SeleniumAutomation\Utilities.class

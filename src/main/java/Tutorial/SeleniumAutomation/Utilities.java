@@ -9,9 +9,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Utils {
+public class Utilities {
 
-	public static org.apache.logging.log4j.Logger log = LogManager.getLogger(Utils.class.getName());
+	public static org.apache.logging.log4j.Logger log = LogManager.getLogger(Utilities.class.getName());
 
 	// Reading configuration property
 	public static String readConfigFile(String parameter) {
