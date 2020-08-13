@@ -1,66 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16303" started-at="2020-08-10T10:58:00Z" finished-at="2020-08-10T10:58:16Z">
+  <suite name="Default suite" duration-ms="12218" started-at="2020-08-13T12:22:56Z" finished-at="2020-08-13T12:23:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16303" started-at="2020-08-10T10:58:00Z" finished-at="2020-08-10T10:58:16Z">
-      <class name="Tutorial.SeleniumAutomation.ClickEventsTest">
-        <test-method status="PASS" signature="intializeBrowser()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="intializeBrowser" is-config="true" duration-ms="14524" started-at="2020-08-10T10:58:00Z" finished-at="2020-08-10T10:58:14Z">
+    <test name="Default test" duration-ms="12218" started-at="2020-08-13T12:22:56Z" finished-at="2020-08-13T12:23:08Z">
+      <class name="Tutorial.SeleniumAutomation.IframeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tutorial.SeleniumAutomation.IframeTest@5b4bdc]" name="initialize" is-config="true" duration-ms="11405" started-at="2020-08-13T12:22:56Z" finished-at="2020-08-13T12:23:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intializeBrowser -->
-        <test-method status="PASS" signature="clickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="clickOnButton" duration-ms="254" started-at="2020-08-10T10:58:14Z" finished-at="2020-08-10T10:58:15Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="iFrameHandle()[pri:0, instance:Tutorial.SeleniumAutomation.IframeTest@5b4bdc]" name="iFrameHandle" duration-ms="196" started-at="2020-08-13T12:23:08Z" finished-at="2020-08-13T12:23:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnButton -->
-        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="chechStatus" is-config="true" duration-ms="2" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:15Z">
+        </test-method> <!-- iFrameHandle -->
+        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.IframeTest@5b4bdc]" name="chechStatus" is-config="true" duration-ms="2" started-at="2020-08-13T12:23:08Z" finished-at="2020-08-13T12:23:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnButton status=SUCCESS method=ClickEventsTest.clickOnButton()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef] output={null}]]]>
+                <![CDATA[[TestResult name=iFrameHandle status=SUCCESS method=IframeTest.iFrameHandle()[pri:0, instance:Tutorial.SeleniumAutomation.IframeTest@5b4bdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chechStatus -->
-        <test-method status="PASS" signature="rightClickOnButton()[pri:1, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="rightClickOnButton" duration-ms="280" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rightClickOnButton -->
-        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="chechStatus" is-config="true" duration-ms="1" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=rightClickOnButton status=SUCCESS method=ClickEventsTest.rightClickOnButton()[pri:1, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chechStatus -->
-        <test-method status="PASS" signature="doubleClickOnButton()[pri:2, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="doubleClickOnButton" duration-ms="283" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doubleClickOnButton -->
-        <test-method status="PASS" signature="chechStatus(org.testng.ITestResult)[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="chechStatus" is-config="true" duration-ms="0" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=doubleClickOnButton status=SUCCESS method=ClickEventsTest.doubleClickOnButton()[pri:2, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chechStatus -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Tutorial.SeleniumAutomation.ClickEventsTest@6a70ef]" name="close" is-config="true" duration-ms="937" started-at="2020-08-10T10:58:15Z" finished-at="2020-08-10T10:58:16Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Tutorial.SeleniumAutomation.IframeTest@5b4bdc]" name="close" is-config="true" duration-ms="587" started-at="2020-08-13T12:23:08Z" finished-at="2020-08-13T12:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Tutorial.SeleniumAutomation.ClickEventsTest -->
+      </class> <!-- Tutorial.SeleniumAutomation.IframeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

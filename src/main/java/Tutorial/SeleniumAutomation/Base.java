@@ -128,5 +128,20 @@ public class Base {
 			Assert.fail(e.getMessage());
 		}
 	}
+	
+	//read visible text
+	public String getVisibleText(WebElement element) {
+		String text=null;;
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 15);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			 text = element.getText();
+		
+		} catch (Exception e) {
+			log.error(e.getMessage());
+			Assert.fail(e.getMessage());
+		}
+		return text;
+	}
 
 }
