@@ -15,18 +15,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.testng.Assert;
+import org.testng.Assert;
 
 import com.google.common.io.Files;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 public class Base {
 
 	public static WebDriver driver;
-	Utilities utilities = new Utilities();
+	
+	Utils utils = new Utils();
 
-	public static String browserName = Utilities.readConfigFile("Browser");
+	public static String browserName = Utils.readConfigFile("Browser");
 	public static org.apache.logging.log4j.Logger log = LogManager.getLogger(Base.class.getName());
 
 	// Initialize Browser
